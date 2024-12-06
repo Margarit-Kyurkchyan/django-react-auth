@@ -1,0 +1,100 @@
+# Python-related files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Django SQLite Database
+*.sqlite3
+*.db
+
+# Environment and settings files
+.env
+*.env
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.Python
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Static and media files
+/static/
+/media/
+
+# Local logs
+*.log
+
+# Backup files
+*.bak
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# mypy cache
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyenv
+.python-version
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+
+# PyLint Reports
+pylint-output.log
